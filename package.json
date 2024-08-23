@@ -1,0 +1,19 @@
+{
+  "name": "bots_launcher-example_plugin",
+  "version": "1.0.0",
+  "description": "Пример плагина для проекта Bots launcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/runServer.js"
+  },
+  "author": "Serolapy",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.5.3"
+  },
+  "type": "module"
+}
